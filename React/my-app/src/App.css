@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(-45deg, #5e0878, #085078, #4ca59b, #1fa194);
+  background-size: 400% 400%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: backgroundTransition 8s ease-in-out infinite ;
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+.p{
+  color: chartreuse;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(45deg, rgb(33, 32, 33), midnightblue);
+}
+
+.list {
+  list-style-type: none;
+  background: linear-gradient(45deg, rgb(33, 32, 33), midnightblue);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.items {
+  margin-right: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn {
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 7px;
+  padding: 5px;
+  color: #000;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 500px){
+  .list {
+      flex-direction: column;
+      height: auto;
+  }
+  .items:nth-child(1){
+      border-top: 1px solid rgba(255, 255, 255, 0.555);
+      margin-top: 50px;
+  }
+  .items {
+      width: 100%;
+      border-top: 1px solid rgba(255, 255, 255, 0.555);
+      text-align: center;
+      margin-right: 0px;
+      padding: 20px 0;
+  }
+  .btn {
+      display: block;
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "amatic sc", sans-serif;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(-45deg, #5e0878, #085078, #4ca59b, #1fa194);
+  background-size: 400% 400%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: backgroundTransition 8s ease-in-out infinite ;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.social_media {
+  margin-top: 1rem;
+  display: flex;
+}

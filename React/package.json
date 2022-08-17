@@ -1,0 +1,19 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "Teste React DIO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016\u001b[2~\u0016https://github.com/MarcosRodio/DioFullStack"
+  },
+  "author": "Marcos Rodio",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.8.0",
+    "react-scripts": "^5.0.1"
+  }
+}

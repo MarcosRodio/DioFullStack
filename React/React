@@ -1,0 +1,5 @@
+npm init
+npx create-react-app my-app
+npm start
+my-app@0.1.0 start
+react-scripts start
